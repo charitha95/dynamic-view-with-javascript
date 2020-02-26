@@ -1,0 +1,35 @@
+.sky-grid {
+    display: block;
+}
+
+.sky-grid .sky-col{
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    .sky-grid {
+        display: flex;
+    }
+    
+    .sky-grid .sky-col {
+        padding: 20px;
+    }
+
+    .sky-grid .sky-col {
+        flex: 1;
+    }
+
+    .sky-col .col-1 {
+        flex: 1;
+    }
+
+    .sky-col .col-2 {
+        flex: 2;
+    }
+
+    .sky-col .col-3 {
+        flex: 3;
+    }
+}
+
+

@@ -1,0 +1,37 @@
+.sky-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sky-card .sky-card-image {
+    width: 100%;
+}
+
+.sky-card .sky-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+}
+
+.sky-card .sky-card-content {
+    overflow-y: auto;
+    margin: auto;
+}
+
+@media (min-width: 769px) {
+    .sky-card {
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .sky-card .sky-card-title {
+        text-align: left;
+    }
+
+    .sky-card .sky-card-content {
+        overflow-y: auto;
+        width: auto;
+    }
+}

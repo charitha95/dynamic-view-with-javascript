@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View from JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="page-title-wrapper">
+        <div class="page-title mobile">
+            <h1>DS</h1>
+            <div class="underline"></div>
+        </div>
+        <div class="web">
+            <h1>Debt System</h1>
+            <div class="underline"></div>
+        </div>
+    </div>
+
+    <div class="sky-grid ud-grid">
+        <div class="sky-col debt-users">
+            <div class="header-title">
+                <h1>Users In Debt</h1>
+            </div>
+            <div class="ud-card-container">
+                <div class="ud-search-bar-wrapper">
+                    <input type="text" placeholder="Search by user name" id="user-search">
+                    <div class="search-icon">
+                        <div class="search-img-wrapper">
+                            <img src="images/search.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <!-- user debt cards container -->
+                <div class="ud-card-container-wrapper slider" id="dyanamic-ud-container">
+                </div>
+
+            </div>
+        </div>
+        <div class="sky-col debts">
+            <div class="header-title">
+                <h1>Debts</h1>
+            </div>
+            <div class="ud-card-container">
+                <div class="ud-search-bar-wrapper">
+                    <input type="text" placeholder="Search by debt description" id="debt-search">
+                    <div class="search-icon">
+                        <div class="search-img-wrapper">
+                            <img src="images/search.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <!-- debt cards container -->
+                <div class="ud-card-container-wrapper slider" id="dyanamic-d-container">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/data/user.js"></script>
+    <script src="./js/data/debts.js"></script>
+    <script src="./js/site.js"></script>
+
+</body>
+
+</html>
